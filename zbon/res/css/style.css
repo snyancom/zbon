@@ -1,0 +1,39 @@
+/* reset */
+html,body{height:100%}
+body{background:#fff;line-height:1.666em}
+body,input,select,button{font-family:verdana,simsun,sans-serif}
+body,select,input,textarea,button,h1,h2,h3,h4,h5,h6,table{font-size:12px}
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,table,th,td,img,blockquote{margin:0;padding:0;border:0}
+input,button,textarea,img{line-height:normal}
+abbr,acronym,address,cite,q,em,code,var,dfn,ins{font-style:normal;text-decoration:none;border:0}
+q:before,q:after{content:""}
+ul,ol{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+select,input,button,button img,.btn{vertical-align:middle}
+.no-ime{ime-mode:disabled}
+a{color:#42352D; text-decoration:none}
+a:hover{ text-decoration:underline}
+body{background-color:#232325}
+.menu a:hover,
+.kh,
+.phone{ background:url(../img/bg.gif) no-repeat 0 0}
+
+.bgtop{background-color:#D5D5D5; height:401px; border-bottom:#656567 1px solid; position:relative}
+
+.page{ width:710px; margin:0 auto; text-align:left;position:absolute; left:50%; margin-left:-355px; top:0}
+h1{ display:block; width:158px; height:123px; background:url(../img/logo.gif); white-space:nowrap; text-indent:500px; overflow:hidden; position:absolute; left:50%; top:23px; margin-left:-79px}
+.xc{ width:710px; height:278px; position:absolute; left:0; top:160px}
+.menu{ width:708px; height:34px; position:absolute; left:1px; top:402px}
+.menu li{ width:118px; height:34px; float:left}
+.menu a{ display:block; width:117px; height:35px; line-height:36px; overflow:hidden;color:#FFF; text-indent:38px}
+.menu a:hover{ background-color:#333; color:#F90; font-weight:bold; background-position:-35px -17px}
+.intro{ width:430px; height:auto; position:absolute; left:10px; top:460px; color:#CCC}
+.intro p{ text-indent:2em; margin-bottom:10px}
+/* ¿ÚºÅ */
+.kh{ width:162px; height:65px; white-space:nowrap; text-indent:500px; overflow:hidden; position:absolute; right:45px; top:480px; background-position:-47px -86px}
+/* µç»° */
+.phone{ height:38px;font-size:24px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#F90; text-indent:50px; background-position:-262px -105px; line-height:38px; position:absolute; right:35px; top:570px}
+.footer{ border-top:#CCC 1px solid; color:#666; width:100%; line-height:30px; white-space:nowrap; position:absolute; left:0; top:650px}
+.footer .l{ float:left}
+.footer .r{ float:right}
+.footer a{ color:#666}

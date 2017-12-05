@@ -1,0 +1,113 @@
+/* reset */
+html,body{height:100%}
+body{background:#fff;line-height:1.666em}
+body,input,select,button{font-family:verdana,simsun,sans-serif}
+body,select,input,textarea,button,h1,h2,table{font-size:12px}
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,table,th,td,img,blockquote{margin:0;padding:0;border:0}
+input,button,textarea,img{line-height:normal}
+abbr,acronym,address,cite,q,em,code,var,dfn,ins{font-style:normal;text-decoration:none;border:0}
+q:before,q:after{content:""}
+ul,ol{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+select,input,button,button img,.btn{vertical-align:middle}
+.no-ime{ime-mode:disabled}
+a{color:#633A30}
+a:hover{text-decoration:underline}
+.clear{ clear:both; height:0; line-height:0; font-size:0; overflow:hidden}
+.fl{ float:left}
+.fr{ float:right}
+body{background:url(../img/i_bodyx.png) repeat-x #E2E2E2 0 0; text-align:center}
+.ibody{ width:900px; margin:0 auto; text-align:left; position:relative}
+
+.logo,
+.menu li a.on,
+.bn .words,
+.main .mtitle,
+.main .mtitle h2,
+.secmenu .title h2{ background-image:url(../img/ibg.jpg); background-repeat:no-repeat}
+.secmenu .title,
+.secmenu .cla li a,
+.commu .title{ background-image:url(../img/ibg2.jpg); background-repeat:no-repeat}
+
+
+
+.logo{ display:block; width:217px; height:81px; background-position:0 0; position:absolute; left:18px; top:0; text-indent:500px; white-space:nowrap; overflow:hidden; z-index:1}
+
+.menu{ height:66px; width:100%; background:url(../img/menubg.png) no-repeat top left}
+.menu li{ width:107px; height:66px; float:right}
+.menu li a{ display:block; width:100%; height:66px; line-height:66px; font-family:simhei; font-size:20px; color:#EFCECC; text-align:center; text-decoration:none}
+.menu li a:hover{ text-decoration:underline}
+.menu li a.on{ color:#640B0D; background-position:0 -281px}
+
+.bn{ height:208px; width:100%; background-color:#FFF; text-align:left; position:relative}
+.bn .words{ width:248px; height:179px; background-position:0 -96px; position:absolute; right:20px; top:10px}
+.bn .words a{ display:block; width:127px; height:36px; white-space:nowrap; text-indent:500px; overflow:hidden; position:absolute; left:47px; top:137px}
+
+.main{ border:#D9D9D9 1px solid; background-color:#FFF; margin-top:18px}
+.main .mtitle{ height:34px; background-position:0 -454px; background-repeat:repeat-x; overflow:hidden; white-space:nowrap}
+.main .mtitle h2{ display:inline-block; width:210px; height:17px; float:left; white-space:nowrap; text-indent:500px; overflow:hidden;margin:9px 0 0 16px; background-position:-6px -511px}
+.main .mtitle span{ line-height:38px; color:#C2C2C2; margin-left:10px}
+/* ÄÚÈÝÇø */
+#content{ padding:18px;zoom:1}
+#sidebar{ width:188px; float:left}
+#core{ padding-left:206px}
+
+.secmenu{ width:188px; height:auto; background-color:#FFF; border:#DADADA 1px solid; text-align:center; background-color:#F9F9F9; margin-bottom:25px}
+.secmenu .title{ width:186px; height:40px; background-position:0 0; margin:1px; overflow:hidden; position:relative}
+.secmenu .title h2{width:65px;height:17px; position:absolute; left:42px; top:12px; text-indent:500px; white-space:nowrap; overflow:hidden}
+	h2.zbwl{ background-position:-6px -370px}
+	h2.cpfw{ background-position:-81px -370px}
+	h2.cgal{ background-position:-156px -370px}
+	h2.fwwl{ background-position:-6px -416px}
+	h2.fwzq{ background-position:-81px -416px}
+	h2.gslx{ background-position:-156px -416px}
+.secmenu .cla{ padding:5px 0; margin-bottom:-5px}
+.secmenu .cla li{ width:179px; height:40px;margin:0 auto 10px}
+.secmenu .cla li a{ display:block;width:179px; height:40px; background-position:0 -143px; line-height:42px; overflow:hidden; text-align:left; font-size:14px; text-indent:65px; text-decoration:none}
+.secmenu .cla li a.on,
+.secmenu .cla li a:hover{ background-position:0 -72px; font-weight:bold; color:#FFF}
+
+.commu{ margin-bottom:25px; color:#666}
+.commu .title{ height:25px; line-height:21px; border-bottom:#E0E0E0 1px solid; background-position:-152px -212px; text-indent:30px; font-weight:bold}
+.commu ul{ padding:10px 0; line-height:22px}
+.commu ul span{ color:#999}
+
+.footer{ padding:20px 0;color:#999; width:900px; margin:0 auto; white-space:nowrap; overflow:hidden}
+.footer a{ color:#999}
+.noside{ padding-left:0px!important}
+/*
+Ä£¿é£º½éÉÜ
+=======================================*/
+.jieshao .top{width:100%; height:140px; background:url(../img/jstop.jpg) no-repeat 0 0; position:relative}
+.jieshao .top .words{ position:absolute; width:330px; word-wrap:break-word; left:305px; top:50px; color:#595959}
+
+
+
+.Ititle{ font-size:16px; font-family:simhei; height:36px; line-height:36px; border-bottom:#999 1px dotted; text-indent:20px; position:relative}
+.Ititle b{ display:block; width:4px; height:15px; background-color:#933; overflow:hidden; position:absolute; left:10px; top:11px}
+.Icontent{ line-height:22px; color:#333; font-size:14px; padding:15px 0 10px 20px}
+.Icontent .indcont{ text-indent:2em; padding-bottom:10px}
+.Icontent .indcont h3{font-size:14px}
+.Icontent .group{ padding:15px 15px 25px}
+.Icontent .seting{ position:relative; line-height:200%}
+.Icontent .seting dt{ position:absolute; left:0; top:0; color:#999}
+.Icontent .seting dd{ padding-left:70px; color:#000}
+
+
+
+.Icontent .cnta{ width:280px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
